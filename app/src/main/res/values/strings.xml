@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="TODO" input="input">myInput</string>
+    <string name="signup">signUp</string>
+    <string name="EmailInput">Email</string>
+    <string name="UsernameInput">Username</string>
+    <string name="passwordInput">password</string>
+    <string name="signupSuccess">signup was successful</string>
+    <string name="signupFail">signup failed</string>
+    <string name="YES">yes</string>
+    <string name="NO">no</string>
+
+
+</resources>
