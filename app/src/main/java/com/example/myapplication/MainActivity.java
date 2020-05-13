@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public static ArrayList<User> users = new ArrayList<>();
     @Override
-    public void onRestoreInstanceState(Bundle savedIntanceState){}
+    public void onRestoreInstanceState(Bundle savedInstanceState){}
     @Override
     public void onSaveInstanceState(Bundle outState){
         super.onSaveInstanceState(outState);
