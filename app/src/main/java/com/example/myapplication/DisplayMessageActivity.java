@@ -13,6 +13,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         System.out.println("passed");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
+
         Intent intent = getIntent();
         String username = intent.getStringExtra("username");
         String password = intent.getStringExtra("password");

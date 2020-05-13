@@ -52,12 +52,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
+        android:layout_marginBottom="156dp"
         android:hint="@string/signup"
         android:onClick="makeSure"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordTXT" />
+
+    <CheckBox
+        android:id="@+id/rememberCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/rememberCheckbox"
+        app:layout_constraintBottom_toTopOf="@+id/SignUpBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTXT"
+        app:layout_constraintVertical_bias="0.09" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

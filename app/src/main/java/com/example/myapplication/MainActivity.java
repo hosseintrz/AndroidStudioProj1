@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     protected void onResume(){
+        Toast toast=Toast.makeText(this,"onResume started",Toast.LENGTH_SHORT);
+        toast.show();
         super.onResume();
     }
 
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             });
         alertdialog.show();
 }
+
 public void Signup() {
 
         Intent intent = new Intent(this, DisplayMessageActivity.class);

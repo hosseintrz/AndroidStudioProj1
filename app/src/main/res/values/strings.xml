@@ -9,6 +9,7 @@
     <string name="signupFail">signup failed</string>
     <string name="YES">yes</string>
     <string name="NO">no</string>
+    <string name="rememberCheckbox">remember me</string>
 
 
 </resources>
